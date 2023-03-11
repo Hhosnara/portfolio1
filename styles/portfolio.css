@@ -40,21 +40,7 @@ nav li{
 }
 
 /* Buttons */
-
 .btn-primary{
-    min-height: 64px;
-    background-color: #FD6E0A;
-    border-radius: 5px;
-    font-weight: 700;
-    font-size: 20px;
-    color: #FFFFFF;
-    border: 0;
-    padding: 18px 35px;
-    align-items: left;
-  
-}
-
-.btn-secondary{
     min-height: 64px;
     background-color: #FD6E0A;
     border-radius: 5px;
@@ -64,12 +50,43 @@ nav li{
     border: 0;
     margin-bottom: -7px;
     padding: 18px 35px;
+    text-align: center;
+    left: 190px;
+    bottom: -180px;
+   
+}
+.btn-resume{
+    min-height: 64px;
+    background-color: #0afd53;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 20px;
+    border: 0;
+    padding-top: 50px;
+    padding-right: 550px;
+    text-align: center;
+   
+  
+}
+
+.btn-secondary{
+    min-height: 64px;
+    background-color: #FD6E0A;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 20px;
+    color: #ffffff;
+    border: 0;
+    margin-bottom: -7px;
+    padding: 18px 35px;
     align-items: left;
     position: absolute;
     left: 190px;
     bottom: -180px;
+} 
+
     
-}
+
 /* Banner styles */
 .banner{
     display: flex;
@@ -263,3 +280,27 @@ img{
     background-color: #ffffff;
 }
 
+/*Contact Styles*/
+
+.contact{
+    display: flex;
+    gap: 100px;
+    background-color: #FFF8F3;
+    padding: 130px 200px;
+    margin:  50px 0;
+}
+.contact .section-title{
+     text-align: center;
+}
+.contact input[type="text"], input[type="email"], textarea{
+    margin-bottom: 24px;
+    width: 100%;
+    border: 0;
+    padding-left: 18px 30px;
+}
+input{
+    height: 64px;
+}
+.contact a{
+    text-decoration: none;
+}
